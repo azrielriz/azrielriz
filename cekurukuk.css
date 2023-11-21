@@ -1,0 +1,171 @@
+*{
+    
+    margin: 0;
+}
+
+.jumbo {
+    background-color: black;
+    color: navy;
+    padding: 50px 20px ;
+    /* width: 100%; */
+    
+    align-items: center;
+    
+
+    
+}
+
+
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 3px 4px 10px whitesmoke;
+    color: darkblue;
+    
+    
+}
+nav {
+    background-color: black;
+    top: 0;
+    padding: 10px 100px;
+    position: fixed;
+    width: 90%;
+  
+   
+  
+}
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;    
+    margin:0px 50px 0px 100px;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: inline;
+}
+
+nav li:hover {
+    background-color: gray;
+    opacity: 70%;
+    color: white;
+    border-radius: 50%;
+}
+
+main {
+    background-color: darkblue;
+    display: flex;
+    padding: 80px;
+    /* width: 100%; */
+
+}
+
+.profile {
+    width: 200px;
+    border-radius: 500px;
+}
+
+.card {
+    border-radius: 5%;
+    background-color: black;
+    border: solid 5px white;
+    padding:  20px;
+    margin-bottom: 25px;
+    text-shadow: 3px 4px 10px whitesmoke;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+    
+}
+
+footer {
+    align-items: center;
+    background-color: black;
+    padding: 40px 0;
+    justify-content: center;
+    display: flex;
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+}
+
+.medsos {
+    border-radius: 5%;
+    background-color: black;
+    border: solid 5px white;
+    padding:  5px 150px 3px 2px;
+    margin-bottom: 25px;
+    text-shadow: 3px 4px 10px whitesmoke;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    
+}
+
+.sosmed {
+    border-radius: 5%;
+    background-color: black;
+    border: solid 5px white;
+    padding:  5px 500px 5px 5px;
+    margin-bottom: 25px;
+    text-shadow: 3px 4px 10px whitesmoke;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+    
+}
+
+@media screen and (m        ax-width:800px) {
+    main {
+        flex-direction: column;
+    }
+    
+}
+
+.dongo {
+    border-radius: 5%;
+    background-color: black;
+    border: solid 5px white;
+    padding:  5px 500px 5px 5px;
+    margin-bottom: 25px;
+    text-shadow: 3px 4px 10px whitesmoke;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.kartu {
+    border-radius: 5%;
+    background-color: black;
+    border: solid 5px white;
+    padding:  20px;
+    margin-bottom: 25px;
+    text-shadow: 3px 4px 10px whitesmoke;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.onetwo {
+    border-radius: 5%;
+    background-color: black;
+    border: solid 5px white;
+    padding:  5px 150px 3px 2px;
+    margin-bottom: 25px;
+    text-shadow: 3px 4px 10px whitesmoke;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    
+}
