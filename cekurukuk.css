@@ -4,15 +4,11 @@
 }
 
 .jumbo {
-    background-color: black;
+    
     color: navy;
     padding: 50px 20px ;
-    /* width: 100%; */
-    
+    background-color: black;
     align-items: center;
-    
-
-    
 }
 
 
@@ -30,10 +26,7 @@ nav {
     top: 0;
     padding: 10px 100px;
     position: fixed;
-    width: 90%;
-  
-   
-  
+    width: 100%;
 }
 nav a {
     text-decoration: none;
@@ -60,7 +53,8 @@ main {
     display: flex;
     padding: 80px;
     /* width: 100%; */
-
+    background-image: url(img/main.gif);
+    background-size: cover;
 }
 
 .profile {
@@ -70,7 +64,7 @@ main {
 
 .card {
     border-radius: 5%;
-    background-color: black;
+    background-color: transparent;
     border: solid 5px white;
     padding:  20px;
     margin-bottom: 25px;
@@ -123,11 +117,35 @@ footer {
     
 }
 
-@media screen and (m        ax-width:800px) {
+.menu-icon {
+    font-size: 38px;
+    color: darkblue;
+    display: none;
+}
+
+@media screen and (max-width:848px) {
     main {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        
     }
-    
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 170px;
+
+    }
+    nav { 
+        flex-wrap: wrap;
+    }
+    .hidden {
+        display: none;
+    }
 }
 
 .dongo {
@@ -169,3 +187,4 @@ footer {
     margin-left: 100px;
     
 }
+
