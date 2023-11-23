@@ -259,3 +259,41 @@ footer {
 
 
 }
+
+@media screen and (max-width:450px) {
+    main {
+        flex-direction: column-reverse;
+        font-size: 20px;
+        
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 170px;
+
+    }
+    nav { 
+        flex-wrap: wrap;
+    }
+    .hidden {
+        display: none;
+    }
+    .hewan {
+        padding: 25px;
+    }
+    .profile {
+        width: 150px;
+    }
+    h2 {
+        font-size: 25px;     
+    }
+    .bio { 
+        font-size: 15px;
+    }
+}
