@@ -1,5 +1,5 @@
 *{
-    
+    padding: 0;
     margin: 0;
 }
 
@@ -55,6 +55,9 @@ main {
     /* width: 100%; */
     background-image: url(img/main.gif);
     background-size: cover;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .profile {
@@ -127,6 +130,7 @@ footer {
     main {
         flex-direction: column-reverse;
         
+        
     }
     nav ul {
         flex-direction: column;
@@ -146,11 +150,14 @@ footer {
     .hidden {
         display: none;
     }
+    .hewan {
+        padding: 20px;
+    }
 }
 
-.dongo {
+.hewan {
     border-radius: 5%;
-    background-color: black;
+    background-color: transparent;
     border: solid 5px white;
     padding:  5px 500px 5px 5px;
     margin-bottom: 25px;
@@ -163,7 +170,7 @@ footer {
 
 .kartu {
     border-radius: 5%;
-    background-color: black;
+    background-color: transparent;
     border: solid 5px white;
     padding:  20px;
     margin-bottom: 25px;
@@ -176,15 +183,79 @@ footer {
 
 .onetwo {
     border-radius: 5%;
-    background-color: black;
+    background-color: transparent;
     border: solid 5px white;
-    padding:  5px 150px 3px 2px;
+    padding:  5px 150px 3px 50px;
     margin-bottom: 25px;
     text-shadow: 3px 4px 10px whitesmoke;
     color: darkblue;
     font-size: 30px;
     font-weight: bold;
     margin-left: 100px;
+
     
 }
 
+@media screen and (max-width:646px) {
+    main {
+        flex-direction: column-reverse;
+        
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 170px;
+
+    }
+    nav { 
+        flex-wrap: wrap;
+    }
+    .hidden {
+        display: none;
+    }
+    .hewan {
+        padding: 25px;
+    }
+
+
+}
+
+@media screen and (max-width:528px) {
+    main {
+        flex-direction: column-reverse;
+        font-size: 20px;
+        
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+    }
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 170px;
+
+    }
+    nav { 
+        flex-wrap: wrap;
+    }
+    .hidden {
+        display: none;
+    }
+    .hewan {
+        padding: 25px;
+    }
+    .profile {
+        width: 150px;
+    }
+
+
+}
